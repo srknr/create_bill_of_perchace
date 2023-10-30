@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env PUBLIC_URL=/create_bill_of_perchase react-scripts build",
+    "build": "react-scripts build",
     "rm": "rm -rf docs",
     "mv": "mv build docs",
     "test": "react-scripts test",
