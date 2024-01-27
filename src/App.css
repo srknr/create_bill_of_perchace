@@ -1,3 +1,22 @@
-.App {
-  text-align: center;
+.app {
+ margin: 10px;
+ padding: 10px;
+}
+
+.main{
+  display: flex;
+  padding-left: 50px;
+}
+
+.inputForm{
+ margin: 5px;
+ padding-left: 10px;
+}
+
+.editButton{
+  background:darkslategray;
+}
+
+.deleteButton{
+  background:brown;
 }
