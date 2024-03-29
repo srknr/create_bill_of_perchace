@@ -140,9 +140,7 @@ function MainPage({totalAmount, setTotalAmount}) {
 
       <div className='border-line'></div>
       <button onClick={handleConfirmation} className='confirmButton'>確定</button>
-    
-      </div>
-      
+      </div>   
     </div>
     </div>
   );
