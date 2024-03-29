@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.5ecd60fb.chunk.css",
-    "main.js": "./static/js/main.5736bfe5.chunk.js",
-    "main.js.map": "./static/js/main.5736bfe5.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.26fd815e.js",
-    "runtime~main.js.map": "./static/js/runtime~main.26fd815e.js.map",
-    "static/js/2.fa95e1fa.chunk.js": "./static/js/2.fa95e1fa.chunk.js",
-    "static/js/2.fa95e1fa.chunk.js.map": "./static/js/2.fa95e1fa.chunk.js.map",
-    "static/js/3.5b0ae9b5.chunk.js": "./static/js/3.5b0ae9b5.chunk.js",
-    "static/js/3.5b0ae9b5.chunk.js.map": "./static/js/3.5b0ae9b5.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.2f512970231c5763c40ff1fdbc6c10f1.js": "./precache-manifest.2f512970231c5763c40ff1fdbc6c10f1.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "./static/css/main.5ecd60fb.chunk.css.map"
+    "main.css": "/create_bill_of_purchase/static/css/main.ae88383a.chunk.css",
+    "main.js": "/create_bill_of_purchase/static/js/main.1f503656.chunk.js",
+    "main.js.map": "/create_bill_of_purchase/static/js/main.1f503656.chunk.js.map",
+    "runtime~main.js": "/create_bill_of_purchase/static/js/runtime~main.d5ea3c17.js",
+    "runtime~main.js.map": "/create_bill_of_purchase/static/js/runtime~main.d5ea3c17.js.map",
+    "static/js/2.4ac773b7.chunk.js": "/create_bill_of_purchase/static/js/2.4ac773b7.chunk.js",
+    "static/js/2.4ac773b7.chunk.js.map": "/create_bill_of_purchase/static/js/2.4ac773b7.chunk.js.map",
+    "static/js/3.133d7e0c.chunk.js": "/create_bill_of_purchase/static/js/3.133d7e0c.chunk.js",
+    "static/js/3.133d7e0c.chunk.js.map": "/create_bill_of_purchase/static/js/3.133d7e0c.chunk.js.map",
+    "index.html": "/create_bill_of_purchase/index.html",
+    "precache-manifest.9d608616eeecb6d33c96d28325e6ba25.js": "/create_bill_of_purchase/precache-manifest.9d608616eeecb6d33c96d28325e6ba25.js",
+    "service-worker.js": "/create_bill_of_purchase/service-worker.js",
+    "static/css/main.ae88383a.chunk.css.map": "/create_bill_of_purchase/static/css/main.ae88383a.chunk.css.map"
   }
 }
