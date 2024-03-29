@@ -4,8 +4,16 @@
 }
 
 .main{
-  display: flex;
+  /* display: flex; */
   padding-left: 50px;
+}
+
+.border-line{
+    border:solid gray 0.5px;
+}
+
+.table-border-line{
+  border:solid black 0.5px;
 }
 
 .inputForm{
@@ -14,9 +22,164 @@
 }
 
 .editButton{
-  background:darkslategray;
+  margin: 2px;
+  padding: 5px;
+  border: none;
+  border-radius: 10%;
+  color:white;
+  background:green;
 }
 
 .deleteButton{
-  background:brown;
+  border: none;
+  border-radius: 10%;
+  padding: 5px;
+  color: white;
+  background:red;
+}
+
+.addButton{
+  border: none;
+  border-radius: 10%;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  background: rgb(75, 109, 7);
+}
+
+.confirmButton{
+  margin: 20px 0;
+  width: 50px;
+  border: none;
+  border-radius: 10%;
+  padding: 5px;
+  color: white;
+  background:rgb(51, 150, 189);
+}
+
+.customer-input{
+  padding: 10px;
+}
+
+.item-input{
+  padding: 10px;
+}
+
+.remark-position{
+  position: relative;
+  margin: 0 0 20px 20px;
+}
+
+.total-amount{
+  text-align: right;
+}
+
+
+
+.result{
+  position: relative;
+  height: 297mm; /* A4サイズの高さ */
+  padding: 20mm; /* 印刷時の余白を設定 */
+  width: 210mm;;
+  color: black;
+  background-color: white;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden; /* 内容がはみ出ないようにする */
+}
+
+/* .result{
+  position: relative;
+  height: 297mm;
+  padding: 20mm; 
+  width: 210mm;;
+  color: black;
+  background-color: white;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden; 
+} */ 
+
+.purchase-title{
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 20mm;
+  background-color: #000;  width: 210mm; /* A4サイズの幅 */
+  box-sizing: border-box; /* paddingが要素のサイズに含まれるようにする */
+
+}
+
+.customer-name{
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+.purchase-total-amount{
+  position: absolute;
+  top: 230px;
+}
+
+@media print{.text{
+  position: absolute;
+  top: 40mm; /* 上から40mmの位置に配置 */
+  right: 10mm;
+  max-width: calc(100% - 40mm); /* 最大幅を設定 */
+  height: 120px;
+  border: 1px solid #000; /*for demo*/
+  padding: 5px;
+  overflow: auto;
+  white-space: pre;
+}
+}
+
+.remark-text{
+  position: absolute;
+  bottom:20mm;
+
+}
+
+.amount-table{
+  position: absolute;
+  top: 300px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+}
+.table-head{
+  color:white;
+  background-color: #000;
+  width: 210mm;
+}
+
+.product-name{
+  width: 125mm;
+
+}
+
+.quantity{
+  width: 30mm;
+}
+
+.valuation-value{
+  width: 50mm;
+}
+
+.white-border{
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.black-border{
+  border-left: 1px solid black;
+}
+
+.valuation-price{
+  text-align: right;
 }
