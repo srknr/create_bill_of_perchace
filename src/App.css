@@ -10,6 +10,8 @@
 
 .border-line{
     border:solid gray 0.5px;
+    width: 700px;
+    margin: 0 0 5px 0;
 }
 
 .table-border-line{
@@ -21,13 +23,21 @@
  padding-left: 10px;
 }
 
+.inputForm div {
+  margin: 5px;
+}
+
+.item-table{
+  margin: 0 0 0 20px;
+}
+
 .editButton{
   margin: 2px;
   padding: 5px;
   border: none;
   border-radius: 10%;
   color:white;
-  background:green;
+  background:#238F76;
 }
 
 .deleteButton{
@@ -35,26 +45,40 @@
   border-radius: 10%;
   padding: 5px;
   color: white;
-  background:red;
+  font-weight: bold;
+  background: #e4674e;
 }
 
 .addButton{
   border: none;
-  border-radius: 10%;
-  padding: 5px;
+  border-radius: 5%;
+  padding: 8px;
   margin: 10px;
   color: white;
-  background: rgb(75, 109, 7);
+  font-weight: bold;
+  background: #238F76;
 }
 
 .confirmButton{
+  margin: 20px 0;
+  width: 300px;
+  border: none;
+  border-radius: 2%;
+  padding: 18px;
+  color: white;
+  font-weight:bold;
+  font-size: 15px;
+  background:rgb(51, 150, 189);
+}
+
+.disabledButton{
   margin: 20px 0;
   width: 50px;
   border: none;
   border-radius: 10%;
   padding: 5px;
   color: white;
-  background:rgb(51, 150, 189);
+  background:gray;
 }
 
 .customer-input{
@@ -66,12 +90,13 @@
 }
 
 .remark-position{
-  position: relative;
-  margin: 0 0 20px 20px;
+  position: absolute;
+  top: 800px;
+  /* margin: 0 0 20px 20px; */
 }
 
 .total-amount{
-  text-align: right;
+  text-align: left;
 }
 
 
@@ -101,10 +126,10 @@
 } */ 
 
 .purchase-title{
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
   color: white;
-  top: 20mm;
+  /* top: 20mm; */
   background-color: #000;  width: 210mm; /* A4サイズの幅 */
   box-sizing: border-box; /* paddingが要素のサイズに含まれるようにする */
 
@@ -116,6 +141,14 @@
   left: 30px;
 }
 
+.job{
+  font-size: 10px;
+}
+
+.identification{
+  font-size: 10px;
+}
+
 .purchase-total-amount{
   position: absolute;
   top: 230px;
@@ -123,7 +156,7 @@
 
 @media print{.text{
   position: absolute;
-  top: 40mm; /* 上から40mmの位置に配置 */
+  top: 100mm; /* 上から40mmの位置に配置 */
   right: 10mm;
   max-width: calc(100% - 40mm); /* 最大幅を設定 */
   height: 120px;
@@ -134,15 +167,69 @@
 }
 }
 
-.remark-text{
+.text{
   position: absolute;
-  bottom:20mm;
+  top: 38mm;
+  left: 140mm;
+}
 
+.remark-text{
+  /* position: absolute; */
+  position: absolute;
+  top: 1000px;
+  bottom:30mm;
+  /* padding: 0.5em 1em; */
+  /* margin: 2em 0; */
+  font-weight: bold;
+  /* border: solid 3px #000000; */
+
+}
+
+.attention{
+    font-size: 10px;
+    bottom: 5mm;
+    width: 160px;
+    padding: 0.5em 1em;
+    color: red;
+    border: solid 3px red;
+}
+
+.cooling-off-text{
+  position: absolute;
+  top: 700px;
+  font-size: 10px;
+  bottom: 5mm;
+  width: 210mm;
+  padding: 0.5em 1em;
+  margin: 1.9em 0;
+  color: red;
+  /* border: solid 3px red; */
+
+}
+
+.cooling-off-mail{
+  margin-top: 7px;
+  text-align: right;
+}
+
+.cooling-off-mail span{
+border: solid 1px red;
+
+
+}
+
+.warning{
+  margin-top: 730px;
+
+}
+.warning-note{
+  margin-top: 50px;
+  width: 210mm;
 }
 
 .amount-table{
   position: absolute;
-  top: 300px;
+  top: 500px;
 }
 
 table {
