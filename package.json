@@ -2,6 +2,7 @@
   "name": "create_bill_of_purchase",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "debug": "NODE_OPTIONS='--openssl-legacy-provider' react-scripts start",
-    "build": "cross-env PUBLIC_URL=/ react-scripts build",
+    "build": "cross-env PUBLIC_URL=/create_bill_of_purchase react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build"
