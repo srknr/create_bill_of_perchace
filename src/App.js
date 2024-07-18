@@ -254,7 +254,7 @@ function MainPage({totalAmount, setTotalAmount}) {
       <br/>
     <div className='cooling-off-mail'><span>クーリング・オフ受付メールアドレス：info@nextus.jp </span></div>  
       </div>
-      <div className='warning'>【注意事項】</div>
+      <div className='warning'>【注意事項】　</div>
       <div className="warning-note">
       当店ではブランド品・貴金属・その他物品に関し、模倣品等と疑わしきお品物の買取は一切お断りしております。<br/>
                 お買取品が精巧かつ巧妙な模倣品の場合、たとえ当店の錯誤により売買契約（現金受け渡し、振り込み）が成立したとしてもその契約は不成立とし、後日当店より返金要求があった場合は、これに一切の意義を唱えず直ちに履行するものとします。< br/>
