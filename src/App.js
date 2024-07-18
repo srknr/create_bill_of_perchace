@@ -237,7 +237,7 @@ function MainPage({totalAmount, setTotalAmount}) {
      <div className='remark-text'>
       買取の説明に同意した上で、上記の物品を譲渡し、「買取合計金額」に記載の金額を受領しました。< br/>
       <br/>
-      令和　　　年　　　月　　　日　ご署名　　　　　　　　　　　様
+      令和　　　年　　　月　　　日　ご署名　　　　　　　　　　　　様
       {remarks}
      </div>
 
