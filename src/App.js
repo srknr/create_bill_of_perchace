@@ -189,7 +189,7 @@ function MainPage({totalAmount, setTotalAmount}) {
       <div className='attention'>注意：この書面はよくお読み下さい</div>
    
    <table>
-    <thead>
+    <thead className='table-head'>
       <tr>
         <th>お客様ご記入欄</th></tr>
     </thead>
