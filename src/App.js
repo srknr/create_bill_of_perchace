@@ -106,14 +106,6 @@ function MainPage({totalAmount, setTotalAmount}) {
      
          </div>
          <div className='item-input'>
-         {/* {items.map((item, index) => (
-          <div key={index}>
-            <p>{item.name}： {item.itemQuantity}個 ：{formatAmountWithCommas(item.amount * item.itemQuantity)}円
-            <button className='editButton' onClick={() => handleEditItem(index)}>編集</button>
-            <button className='deleteButton' onClick={() => handleDeleteItem(index)}>削除</button>
-        </p>
-          </div>
-        ))} */}
         <div className='inputForm'>
          <div> <label>品物名: </label>
           <input type="text" value={itemName} onChange={handleItemNameChange} />
