@@ -186,7 +186,7 @@ function MainPage({totalAmount, setTotalAmount}) {
         <th>お客様ご記入欄</th></tr>
     </thead>
     <tbody>
-      <tr><td>買取申込日　令和　　年　　　月　　　日</td></tr>
+      <tr><td>買取申込日　令和　　　年　　　月　　　日</td></tr>
       <tr><td>氏名　　　　</td></tr>
       <tr><td>職業<div className='job'>会社員・自営・パート/アルバイト<br/>主婦・無職・学生<br/>その他（　　　　　　　）</div></td></tr>
     <tr><td>生年月日　　　　　　年　　月　　日（　　　）歳</td></tr>
