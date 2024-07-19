@@ -151,7 +151,7 @@ function MainPage({totalAmount, setTotalAmount}) {
       <h3 className='total-amount'>合計金額：  {formatAmountWithCommas(calculateTotalAmount(items))}円</h3>
       
  
-      <div className='remark-position'>
+      <div>
       <label>備考</label>
       <div>
       <textarea value={remarks} onChange={handleRemarksChange}   rows="2" cols="80"/>
