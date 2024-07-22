@@ -240,6 +240,9 @@ function MainPage({totalAmount, setTotalAmount}) {
       令和　　　年　　　月　　　日　ご署名　　　　　　　　　　　　様
       {remarks}
      </div>
+     <div>
+      □ 私（売り主）は、消費税における適格請求書発行事業者ではありません。
+     </div>
 
      <div className='cooling-off-text'>
       クーリング・オフについて< br/>
